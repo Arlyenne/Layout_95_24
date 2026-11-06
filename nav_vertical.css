@@ -1,0 +1,46 @@
+@font-face{
+        font-family: 'hmtt';
+        src: url(Hug\ Me\ Tight\ -\ OTF.otf) format('truetype');
+}
+@font-face{
+        font-family: 'dantene';
+        src: url(Dantene.otf) format('truetype');
+}
+body{
+    margin: 0;
+    background-color: rgb(253, 165, 141);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    height: 100%;
+    border: 1px solid black;
+    font-family: dantene;
+}
+li a{
+    display: block;
+    color: rgb(255, 36, 32);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+li a.active{
+    background-color: rgb(16, 16, 16);
+    color: rgb(155, 255, 122);
+}
+li a:hover:not(.active){
+    background-color: rgb(250, 123, 123);
+    color: rgb(24, 19, 18);
+}
+
+div.text{
+    font-family: hmtt;
+}

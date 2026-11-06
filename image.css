@@ -1,0 +1,87 @@
+body{
+    background-image: url("background.jpg");
+}
+
+img.ukuran{
+    height: 200px;
+    width: 200px;
+}
+
+img.lengkungan{
+    height: 300px;
+    width: 300px;
+    border-radius: 20% 20% 0% 0%;
+}
+
+div.kelompok{
+    height: 300px;
+    width: 300px;
+    background-color: hotpink;
+    border-radius: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+div.kelompok img{
+    height: 270 px;
+    width: 270px;
+    border-radius: 20%;
+    border: 7px dotted blue;
+}
+
+div.efek{
+    height: 300px;
+    width: 300px;
+    background-color:crimson;
+    border-radius: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+div.efek img{
+    height: 270 px;
+    width: 270px;
+    border-radius: 20%;
+    border: 7px dotted orangered;
+}
+div.efek:hover{
+    height: 350px;
+    width: 350;
+    background-color:lightblue;
+    box-shadow: 15px 15px 10px pink
+}
+
+p.external{
+    font-family: "abcde";
+    font-size: 30pt;
+}
+
+@font-face {
+    font-family: "abcde";
+    src: url("Magic\ Sound.ttf");
+}
+
+p.a{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.b{
+    color: darkgoldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.c{
+    color: mediumseagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.d{
+    color: black;
+    font-family: cursive;
+}
+
+p.e{
+    color: black;
+    font-family: cursive;
+}
